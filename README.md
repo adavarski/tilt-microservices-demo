@@ -17,7 +17,7 @@ You need these tools to set this up and try it for yourself:
 - [tilt](https://tilt.dev): smart rebuilds and live updates making your live easier. Tilt define your dev environment as code. Very usable for microservice apps on Kubernetes, and better than Skaffold ).
 
 ## Installing the cluster
-Create a local kind cluster with docker registry & nginx ingress setuped using:
+Create a local kind cluster with nginx ingress using:
 
 ```
 make up
