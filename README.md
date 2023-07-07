@@ -5,7 +5,7 @@
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
-### QUIK HOWTO Local Development with KinD & Tilt
+### QUIK HOWTO: Local Development with KinD & Tilt
 
 Simple example showcasing an option for a local development setup for eCommers app in kubernetes.
 
