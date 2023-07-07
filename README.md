@@ -5,9 +5,9 @@
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
-### QUIK HOWTO
+### QUIK HOWTO Local Development with KinD & Tilt
 
-Simple example showcasing an option for a local development setup for python apps in kubernetes.
+Simple example showcasing an option for a local development setup for eCommers app in kubernetes.
 
 You need these tools to set this up and try it for yourself:
 - [docker](https://www.docker.com): this is where the local cluster will be hosted
@@ -31,7 +31,19 @@ tilt up
 
 ### Check microservcises
 ````
-kubectl get po
+$ kubectl get po
+NAME                                    READY   STATUS    RESTARTS      AGE
+adservice-7dd4778f64-27b8t              1/1     Running   0             103s
+cartservice-69d866b896-dvjhg            1/1     Running   1 (15m ago)   16m
+checkoutservice-7f7c869d98-dtjdr        1/1     Running   0             3m53s
+currencyservice-6d556bd9b7-4qk5s        1/1     Running   0             10m
+emailservice-5c4bdbd7c-tq8x5            1/1     Running   0             13m
+frontend-74b659bbfc-l2km2               1/1     Running   0             16m
+paymentservice-65489848f9-2kfkf         1/1     Running   0             10m
+productcatalogservice-59cf499c6-qncrh   1/1     Running   0             16m
+recommendationservice-fbc8564c5-6fkph   1/1     Running   0             8m9s
+redis-cart-8578b777ff-hwsv9             1/1     Running   0             17m
+shippingservice-9c84558cd-l49b5         1/1     Running   0             15m
 ````
 
 ## Clean dev environment
